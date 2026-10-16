@@ -28,3 +28,9 @@ Route::get('/heure', function () {
     return view('heure',);
 
 });
+Route::get('/a-propos', function () {
+    return view(' a-propos ', [
+        'auteur' => 'Prenom Nom',
+        'groupe' => 'MDW32',
+    ]);
+});
