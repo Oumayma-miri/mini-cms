@@ -15,3 +15,12 @@ Le dossier vendor/ contient les dépendances PHP installées par Composer. Il n'
 ## 5. Git Credential Manager
 
 Git Credential Manager permet de stocker et de réutiliser les identifiants nécessaires à l'authentification auprès de GitHub. Sous Windows, les identifiants sont généralement stockés dans le Gestionnaire d'identifiants Windows
+
+## 6. Historique depuis lab-01
+
+Nombre de commits depuis lab-01 :
+4
+Fichiers modifiés depuis lab-01 :
+4
+Ce que git tag -n affiche pour lab-01 :
+lab-01          Initial commit
