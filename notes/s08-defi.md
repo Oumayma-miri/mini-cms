@@ -13,3 +13,9 @@ Pour afficher uniquement les tags qui ont au moins un article publié et éviter
 **Combien de requêtes ajoute la liste des tags populaires, et pourquoi pas une par tag ?**
 
 Une seule requête supplémentaire grâce au chargement groupé des données avec Eloquent. Cela évite le problème N+1 et permet de récupérer les informations de tous les tags en même temps.
+
+### Auto-vérification
+
+**Pourquoi aucune migration, aucun modèle et aucun test n'a changé ?**
+
+Parce que Laravel utilise Eloquent et les migrations pour gérer la base de données indépendamment du système utilisé. On change seulement la configuration dans le fichier `.env`, mais le code reste le même.
